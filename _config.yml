@@ -7,7 +7,7 @@ title: Think Then Do IT
 subtitle:
 description:
 author: 王海彬
-language:
+language: default
 timezone:
 
 # URL
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: NexT
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
