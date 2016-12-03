@@ -74,3 +74,13 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 *  首先需要到[多说home page](http://duoshuo.com/)注册账号，目前只支持用微博，微信等账号等入，然后在home page 有个`我要安装`，点击后可以创建站点，其中有一个是多说域名，例如，http://abc.duoshuo.com， `abc`将是接下来要用到的`duoshuo_shortname`;
 *  接下来按照[这里](http://dev.duoshuo.com/threads/541d3b2b40b5abcd2e4df0e9)配置即可。
 
+## TroubleShootings
+* Erro **npm shasum check failed for ...**
+Encountered on Windows, not found on Mac. 
+Solution: 
+Add `registry = http://registry.cnpmjs.org` --> ~/.npmrc
+
+* Error **Local hexo not found in ...**
+run `npm install`
+
+
