@@ -6,8 +6,10 @@ tags: dns
 
 Every time I post new articles to blog, my dns will be **404 error**
 
-My DNS config is as below:
-![](img/dnsconfig.png)
+My DNS config is as below:  
+
+![](/img/dnsconfig.jpg)  
+
 
 After google I found the root cause is every time I deploy, the `CNAME` file will be deleted.
 
