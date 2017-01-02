@@ -2,6 +2,7 @@
 title: hexo bind DNS encounter 404 error
 date: 2016-12-21 18:50:21
 tags: dns
+category: hexo
 ---
 
 Every time I post new articles to blog, my dns will be **404 error**

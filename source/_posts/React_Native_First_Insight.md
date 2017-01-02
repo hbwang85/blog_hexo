@@ -1,6 +1,7 @@
 ---
   title: React Native 初探
   category: React Native
+  tags: React Native
 ---
 
 ## 写在最前

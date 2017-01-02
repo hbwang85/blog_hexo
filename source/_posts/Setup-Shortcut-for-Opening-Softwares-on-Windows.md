@@ -1,7 +1,7 @@
 ---
 title: Setup Shortcut for Opening Softwares on Windows
 date: 2016-11-26 12:10:42
-tags: shortcut, Windows
+tags: [shortcut, Windows]
 category: Windows
 ---
 

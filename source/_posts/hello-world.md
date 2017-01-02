@@ -75,12 +75,29 @@ More info: [Deployment](https://hexo.io/docs/deployment.html)
 *  接下来按照[这里](http://dev.duoshuo.com/threads/541d3b2b40b5abcd2e4df0e9)配置即可。
 
 ## TroubleShootings
-* Erro **npm shasum check failed for ...**
+### Erro **npm shasum check failed for ...**
 Encountered on Windows, not found on Mac. 
 Solution: 
 Add `registry = http://registry.cnpmjs.org` --> ~/.npmrc
 
-* Error **Local hexo not found in ...**
+### Error **Local hexo not found in ...**
 run `npm install`
 
+### Display categories and tags for Next theme  
+1. ```hexo new page "tags"``` 
+2. 编辑刚新建的页面，将页面的类型设置为 tags ，主题将自动为这个页面显示标签   
+```   
+title: tags  
+date: 2017-01-02 20:53:59  
+type: "tags"  
+comments: false  
+``` 
+3. 在菜单中添加链接。编辑 主题配置文件 ，添加 tags 到 menu 中，如下:  
+```
+menu:  
+
+  home: /  
+  archives: /archives  
+  tags: /tags  
+```
 

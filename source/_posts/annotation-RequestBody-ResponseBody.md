@@ -1,7 +1,7 @@
 ---
 title: Annotation RequestBody & ResponseBody
 date: 2016-12-18 19:01:29
-tags:
+tags: [java, annotation]
 category: Spring
 ---
 
@@ -113,3 +113,5 @@ request入参会直接转换为 object `cat`
     <name>wangwang</name>
 </dog>
 ```
+
+
